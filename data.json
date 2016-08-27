@@ -1,0 +1,10 @@
+{ "table": [
+{"Name" : "Vikram Waradpande"  ,  "Score" : "50"  ,   "Time" : "14"},
+{"Name" : "Harshit Arora",   "Score" : "55",   "Time" : "15"},
+{"Name":"Yajat Dawar", "Score":"60", "Time":"13"},
+{"Name":"Rachit Rathore", "Score":"60", "Time":"17"},
+{"Name":"Vikram Singh", "Score":"67", "Time":"16"},
+{"Name":"Surya Siddhartha", "Score":"78", "Time":"20"}
+]
+
+}

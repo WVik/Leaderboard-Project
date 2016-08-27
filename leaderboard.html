@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div id="maincontent">
+
+   <div class="header">LeaderBoard</div>
+       
+                   
+       <div style="margin:47px;width:70%;position:relative;top:68px;right:-115px;">
+                     <table style="border-bottom:light">
+                       <tr>
+                         <th id="Name" onclick="sort('Name')">Name</th>
+                         <th onclick="sort('Score')">Score </th>
+                         <th width="50px" onclick="sort('Time')">Time (Minutes)</th>
+                       </tr>
+                     </table>
+
+  
+       </div>
+
+    <div id="addnewperson">
+     
+      <form>
+      <input type="text"  id="enteredName" placeholder="Name">
+      <input type="number"  id="enteredScore" placeholder="Score">
+      <input type="number"  id="enteredTime" placeholder="Time">
+      </form>
+
+     <button style="background-color:#7bbf41;">Submit</button>
+
+ </div>
+
+  </div>       
+
+
+
+
+<script type="text/javascript" src="jquery-3.1.0.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

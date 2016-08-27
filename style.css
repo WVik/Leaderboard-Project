@@ -1,0 +1,97 @@
+body{
+background: linear-gradient(to right,#ddf3ca ,#7bbf41  );
+
+}
+
+
+button{
+	margin:5px;
+	border-radius: 7px;
+}
+
+
+#maincontent{
+    position: relative;
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+	background-color: #ddffdb;
+	border-radius: 10px;
+	top:30px;
+	display: flex;
+	text-align: center;
+	justify-content:center;
+	align-items:center;
+	border:4px solid lightgreen;
+	color: #333;
+	flex-direction:column;
+    
+}
+
+.header{
+  position: absolute;
+  top:20px;
+  width:80%;
+  background-color:lightgreen;
+  opacity: 0.8;
+  margin:20px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  font-family: Georgia;
+
+}
+
+table, th, td{
+	border: 0px;
+	border-collapse: collapse;
+	width: 70%;
+	padding: 10px;
+	font-size: 17px;
+	border-color: #444444;
+	font-family: Georgia;
+
+	 
+}
+
+
+	
+input{
+	background-color: #ddf3ca;
+}
+
+form{
+  color:white;
+  background-color: #7bbf41;
+  border-radius: 2px solid black;
+  padding: 10px; 
+border-radius: 5px;
+}
+
+
+th{
+	
+	opacity: 0.8;
+	color: #111;
+	font-size: 20px;
+	border: 10px;
+	background-color: #74c181;
+	border-radius: 6px 6px 0 0;
+}
+
+
+#addnewperson{
+ display: inline;
+ position: relative;
+ margin-left: auto;
+margin-right: auto;
+padding:10px;
+display: flex;
+font-size: 20px;
+justify-content:center;
+margin: 30px;
+
+
+}
