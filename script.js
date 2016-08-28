@@ -1,3 +1,5 @@
+// Store some initial entries. 
+
 var table = [
 
 {Name:"John Smith", Score:"50", Time:"14"},
@@ -9,21 +11,25 @@ var table = [
 
 ]
 
-
-
+// Populate the stored entries in the table.
 var rows;
 
 for(rows =0; rows<table.length;rows++){
-
-$('table').append('<tr><td></td><td></td><td></td></tr>');
+   $('table').append('<tr><td></td><td></td><td></td></tr>');
 }
  
 var flag=1;
 
+// Display the table.
+
 display();
+
+
 
 $('table tr:even').css('background-color', '#ddf3ca');
 $('table tr:odd').css('background-color', '#7bbf41');
+
+// The following function is to compare the entries to sort the table. Selector is one of 'Name', 'Score', 'Time'.
 
 function sort(selector){
 
@@ -49,6 +55,7 @@ display();
 }
 
 
+//Definition of display function.
 
 function display(){
 
@@ -61,6 +68,8 @@ for(var i=0; i<table.length; i++)
 
 }
 
+  
+ // Function to sort the table when the user clicks the table heading. 'button' is the class of the table head. 
          
 	     $('button').click(function(){
 		 var enteredName = document.getElementById('enteredName').value;
